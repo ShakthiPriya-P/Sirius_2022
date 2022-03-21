@@ -6,5 +6,7 @@ public class Ex23 {
 	public static void main(String[] args) {
 		Example obj= new Example();
 		System.out.println(obj.a);
+		obj.a=20;
+		System.out.println(obj.a);
 	}
 }

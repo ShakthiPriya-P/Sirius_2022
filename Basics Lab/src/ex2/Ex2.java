@@ -6,7 +6,7 @@ public class Ex2 {
 	static float var3;
 	static boolean var4;
 	static long var5;
-	static String var6;
+	static char var6;
 	public static void main(String[] args) {
 		System.out.println(var1);
 		System.out.println(var2);

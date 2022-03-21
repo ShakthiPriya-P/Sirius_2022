@@ -14,6 +14,9 @@ public class Ex16 {
 		for(int i=0;i<n;i++) {
 			if(arr[i]==elt) {
 				count+=1;
+				if(count==1) {
+					System.out.println("Element present at :"+i);
+				}
 			}
 		}
 		if(count==0) {

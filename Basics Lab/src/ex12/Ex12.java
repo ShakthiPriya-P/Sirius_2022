@@ -6,5 +6,4 @@ public class Ex12 {
 	         System.out.println("args[" + i + "]: " + args[i]);
 	      }
 	   }
-
 }

@@ -3,7 +3,7 @@ import java.util.*;
 public class Ex5 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		Ex5 obj=new Ex5();
+		//Ex5 obj=new Ex5();
 		int n =sc.nextInt();
 		int arr[] = new int[n];
 		for(int i=0;i<n;i++) {

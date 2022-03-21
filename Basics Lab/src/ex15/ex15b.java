@@ -5,6 +5,8 @@ public class ex15b {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();
+		boolean flag = false;
+		//Armstrong Number
 		int temp=n;
 		int digits=0;
 		while(temp>0) {
@@ -19,10 +21,9 @@ public class ex15b {
 		}
 		if(n==sum) {
 			System.out.println("Armstrong Number");
+			flag=true;
 		}
-		else {
-			System.out.println("Not an Armstrong Number");
-		}
+		//Perfect Number
 		sum=0;
 		for(int i=1;i<n;i++) {           
             if(n%i==0) {                              
@@ -30,12 +31,23 @@ public class ex15b {
             }         
         }            
         if (sum==n) {  
-            System.out.println("Perfect number");         
+            System.out.println("Perfect number");  
+            flag=true;
         }
-        else
-        {                      
-            System.out.println("Not a perfect number");    
-        }  
+       //Palindrome 
+        temp=n;
+        int reverse=0;
+        while(temp>0) {
+        	reverse=(reverse*10)+temp%10;
+        	temp/=10;
+        }
+        if(n==reverse) {
+        	System.out.println("Palindrome Number");
+        	flag=true;
+        }
+        if(!flag) {
+        	System.out.println("None of these");
+        }
         sc.close();
 	}
 }

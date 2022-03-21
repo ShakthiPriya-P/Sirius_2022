@@ -5,7 +5,7 @@ public class Ex26 {
 	{
 		int i = -243;
 		int j = 243;
-		if(i == j);
+		if(i==j);
 		System.out.println("numbers are the same"); 
 	}
 }

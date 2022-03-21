@@ -7,9 +7,9 @@ public class Ex17b {
   }
 }
 class Example{
-	public static int number = 10;
+	public int number = 10;
 	 
-	public void nonStatic() {
+	public static void nonStatic() {
 		System.out.println(number);
 	}
 }
